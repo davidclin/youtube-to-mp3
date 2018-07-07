@@ -13,7 +13,7 @@ Download videos from YouTube and convert them to mp3!
 
 ## Installation
 
-On Ubuntu, these requirements can be installed using this comand:
+On Ubuntu, 
 
 ```
     $ apt-get install youtube-dl wget ffmpeg lame
@@ -34,10 +34,13 @@ On Ubuntu, these requirements can be installed using this comand:
 ```
 
 ## Simpler Solution
-youtube-dl is a powerful tool, but if all you want to do is convert YouTube videos to mp3, copy [youtube-dl.conf](https://github.com/davidclin/youtube-dl-mp3/blob/master/youtube-dl.conf) to /etc directory then type
+youtube-dl is a powerful tool, but if all you want to do is convert YouTube videos to mp3 without having to type the --extract-audio and --audio-format options, simply copy [youtube-dl.conf](https://github.com/davidclin/youtube-dl-mp3/blob/master/youtube-dl.conf) to /etc directory then type
 
 ```
 $ youtube-dl videoURL
 ```
-Otherwise, go with the usage example provided earlier and use all the bells and whistles appropriate for what you want to do.
+
+## Useful Resources
+[youtube-dl](http://rg3.github.io/youtube-dl/)
+[YouTube DL Tutorial](https://steemit.com/utopian-io/@steemmaster/tutorial-install-youtube-dl-and-download-playlists-and-channels-from-youtube)
 
