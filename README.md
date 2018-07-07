@@ -1,4 +1,4 @@
-# youtube-dl
+<img src="./images/youtube-dl.jpg" width=350>
 
 Download videos from YouTube and convert them to mp3!
 
