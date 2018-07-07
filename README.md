@@ -40,7 +40,5 @@ youtube-dl is a powerful tool, but if all you want to do is convert YouTube vide
 $ youtube-dl videoURL
 ```
 
-## Useful Resources
-[youtube-dl](http://rg3.github.io/youtube-dl/)
-[YouTube DL Tutorial](https://steemit.com/utopian-io/@steemmaster/tutorial-install-youtube-dl-and-download-playlists-and-channels-from-youtube)
+
 
