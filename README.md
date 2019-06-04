@@ -34,7 +34,7 @@ On Ubuntu,
 ```
 
 ## Simpler Solution
-youtube-dl is a powerful tool, but if all you want to do is convert YouTube videos to mp3 without having to type the --extract-audio and --audio-format options, simply copy [youtube-dl.conf](https://github.com/davidclin/youtube-dl-mp3/blob/master/youtube-dl.conf) to /etc directory then type
+youtube-dl is a powerful tool, but if all you want to do is convert YouTube videos to mp3 without having to type the --extract-audio and --audio-format options, simply copy [youtube-dl.conf](https://github.com/davidclin/youtube-to-mp3/blob/master/youtube-dl.conf) to /etc directory then type
 
 ```
 $ youtube-dl videoURL
