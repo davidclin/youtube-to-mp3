@@ -19,6 +19,11 @@ On Ubuntu,
     $ apt-get install youtube-dl wget ffmpeg lame
 ```
 
+On Windows 10,
+
+```
+    https://ytdl-org.github.io/youtube-dl/download.html
+```
 
 ## Usage
 
@@ -34,10 +39,11 @@ On Ubuntu,
 ```
 
 ## Simpler Solution
+For Linux,
 youtube-dl is a powerful tool, but if all you want to do is convert YouTube videos to mp3 without having to type the --extract-audio and --audio-format options, simply copy [youtube-dl.conf](https://github.com/davidclin/youtube-to-mp3/blob/master/youtube-dl.conf) to /etc directory then type
 
 ```
-$ youtube-dl videoURL
+    $ youtube-dl videoURL
 ```
 
 
