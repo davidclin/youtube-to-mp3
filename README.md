@@ -49,9 +49,9 @@ Windows Command Prompt,
 ```
 
 ## Simpler Solution
-If you don't want to type the --extract-audio and --audio-format options all the time, you can create [youtube-dl.conf](https://github.com/davidclin/youtube-to-mp3/blob/master/youtube-dl.conf) and place the file in the /etc directory for Ubuntu or on your Desktop for Windows assuming that's where you installed youtube-dl. 
+If you don't want to type the --extract-audio and --audio-format options all the time, you can create [youtube-dl.conf](https://github.com/davidclin/youtube-to-mp3/blob/master/youtube-dl.conf) and place the file in the /etc directory for Ubuntu or in C:\Users\<user name>\youtube-dl.conf for Windows assuming that's where you installed youtube-dl. 
 
-Windows youtube-dl.conf example,
+Windows youtube-dl.conf example in C:\Users\<user name>,
 ```
 # Always extract audio
 -x
