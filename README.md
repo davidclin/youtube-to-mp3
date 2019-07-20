@@ -28,7 +28,12 @@ On Windows 10,
 ## Usage
 
 ```
-    $ youtube-dl --extract-audio --audio-format mp3 videoURL
+In Ubuntu terminal,
+    $ youtube-dl --extract-audio --audio-format mp3 {VIDEO_URL_GOES_HERE}
+
+In Windows Powershell,
+    .\youtube-dl.exe --extract-audio --audio-format mp3 {VIDEO_URL_GOES_HERE}
+
 ```
 
 
