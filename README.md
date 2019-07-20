@@ -5,33 +5,38 @@ Download videos from YouTube and convert them to mp3!
 
 ## Requirements
 
+For Ubuntu,
   * [youtube-dl](https://github.com/rg3/youtube-dl)
   * wget
   * ffmpeg
   * lame
 
+For Windows,
+  * Microsoft Visual C++ 2010 Redistributable Package (x86)
 
 ## Installation
 
-On Ubuntu, 
+For Ubuntu, 
 
 ```
     $ apt-get install youtube-dl wget ffmpeg lame
 ```
 
-On Windows 10,
+For Windows 10,
 
 ```
-    https://ytdl-org.github.io/youtube-dl/download.html
+    Command Prompt (as Administrator)
+    > choco install youtube-dl
+    > choco install ffmpeg
 ```
 
 ## Usage
 
 ```
-In Ubuntu terminal,
+Ubuntu terminal,
     $ youtube-dl --extract-audio --audio-format mp3 {VIDEO_URL_GOES_HERE}
 
-In Windows Powershell,
+Windows Command Prompt,
     .\youtube-dl.exe --extract-audio --audio-format mp3 {VIDEO_URL_GOES_HERE}
 
 ```
