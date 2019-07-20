@@ -37,7 +37,7 @@ Ubuntu terminal,
     $ youtube-dl --extract-audio --audio-format mp3 {VIDEO_URL_GOES_HERE}
 
 Windows Command Prompt,
-    .\youtube-dl.exe --extract-audio --audio-format mp3 {VIDEO_URL_GOES_HERE}
+    C:\Users\David\Desktop\youtube-dl.exe --extract-audio --audio-format mp3 {VIDEO_URL_GOES_HERE}
 
 ```
 
@@ -49,11 +49,24 @@ Windows Command Prompt,
 ```
 
 ## Simpler Solution
-For Linux,
-youtube-dl is a powerful tool, but if all you want to do is convert YouTube videos to mp3 without having to type the --extract-audio and --audio-format options, simply copy [youtube-dl.conf](https://github.com/davidclin/youtube-to-mp3/blob/master/youtube-dl.conf) to /etc directory then type
+If you don't want to type the --extract-audio and --audio-format options all the time, you can create [youtube-dl.conf](https://github.com/davidclin/youtube-to-mp3/blob/master/youtube-dl.conf) and place the file in the /etc directory for Ubuntu or on your Desktop for Windows assuming that's where you installed youtube-dl. 
 
+Windows youtube-dl.conf example,
 ```
+# Always extract audio
+-x
+
+# Always convert to mp3
+--audio-format mp3
+```
+
+## Final Solution
+```
+Ubuntu
     $ youtube-dl videoURL
+    
+Windows
+    C:\Users\David\Desktop\youtub-dl videoURL
 ```
 
 
