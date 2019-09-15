@@ -60,7 +60,7 @@ Windows youtube-dl.conf example in C:\Users\<user name>,
 --audio-format mp3
 
 # Always save to Desktop
---output "~/Desktop/%(title)s.%(ext)s"
+--output "~/Desktop/mp3/%(title)s.%(ext)s"
 ```
 
 ## Final Solution
